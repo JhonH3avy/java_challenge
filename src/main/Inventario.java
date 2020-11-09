@@ -20,7 +20,6 @@ public class Inventario {
             inventario.procesarComandos(comando);
         } while (!inventario.isReadyToExit());
         sc.close();
-        System.out.println("Programa terminado");
     }
 
     public boolean isReadyToExit() {
