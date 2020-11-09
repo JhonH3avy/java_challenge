@@ -11,10 +11,10 @@ public class Comercial extends Vehiculo {
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        builder.append(String.format("\tVehiculo %s - Placa: %s", tipo, placa));
-        builder.append(String.format("\tVelocidad %s", velocidad));
-        builder.append(String.format("\tPasajeros %s", pasajeros));
-        builder.append(String.format("\tCarga Maxima %s", cargaMaxima));
+        builder.append(String.format("\tVehiculo %s - Placa: %s\n", tipo, placa));
+        builder.append(String.format("\tVelocidad %s\n", velocidad));
+        builder.append(String.format("\tPasajeros %s\n", pasajeros));
+        builder.append(String.format("\tCarga Maxima %s\n", cargaMaxima));
         return builder.toString();
     }
 }
